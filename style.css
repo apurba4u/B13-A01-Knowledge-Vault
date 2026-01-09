@@ -10,3 +10,43 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.btn {
+  width: 164px;
+  height: 44px;
+  background-color: rgba(70, 145, 101, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+/* Main Property */
+nav {
+  width: 100vw;
+  max-width: 1600px;
+  min-height: 11vh;
+  max-height: 92px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 130px;
+}
+.logo {
+  width: 139px;
+  height: 60px;
+  background-image: url('/assets/logo-footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  width: 365px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
