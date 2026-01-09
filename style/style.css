@@ -39,7 +39,7 @@ nav {
 .logo {
   width: 139px;
   height: 60px;
-  background-image: url('/assets/logo-footer.png');
+  background-image: url('../assets/logo-navbar.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ header {
   min-height: 75vh;
   max-height: 674px;
   border: 1px solid red;
-  background-image: url('/assets/hero-bg.png');
+  background-image: url('../assets/hero-bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ header {
   flex: 1;
 }
 .con3{
-  background-image: url("/assets/knowledge.png");
+  background-image: url("../assets/knowledge.png");
 }
 .con4 {
   display: flex;
