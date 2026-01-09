@@ -18,7 +18,13 @@
   border: none;
   border-radius: 4px;
   font-weight: 600;
+  cursor: pointer;
 }
+.btn:hover, .btn1:hover {
+  background-color: rgb(47, 101, 69);
+  transform: scale(95%);
+}
+
 /* Main Property */
 nav {
   width: 100vw;
@@ -114,6 +120,7 @@ header {
   border: none;
   border-radius: 4px;
   font-weight: 600;
+  cursor: pointer;
 }
 .content3 .btn2 {
   width: 198px;
@@ -123,7 +130,14 @@ header {
   border: 1px solid white;
   border-radius: 4px;
   font-weight: 600;
+  cursor: pointer;
 }
+.content3 .btn2:hover {
+  background-color: white;
+  color: #011931;
+  scale: (95%);
+}
+
 .container1 {
   width: 85vw;
   max-width: 1360px;
@@ -251,3 +265,44 @@ header {
 #s2 {
   margin-top: 120px;
 }
+footer {
+  width: 100%;
+  max-height: 348px;
+  min-height: 39vh;
+  background-color: #011931;
+  color: #fff;
+  padding-top: 120px;
+}
+footer .f1, footer .f2 {
+  width: 85vw;
+  max-width: 1360px;
+  min-height: 8vh;
+  max-height: 64px;
+  margin: 0 auto;
+}
+.f1 {
+  display: flex;
+  justify-content: space-between;
+}
+.f1 img {
+  width: 139px;
+  height: 60px;
+  object-fit: cover;
+}
+.f2 {
+  border-top: 1px solid #627382;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+#s4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#s5 {
+  margin-top: 120px;
+}
+
+
