@@ -208,7 +208,7 @@ header {
   flex: 1;
 }
 .con3{
-  background-image: url("./assets/knowledge.png");
+  background-image: url("/assets/knowledge.png");
 }
 .con4 {
   display: flex;
