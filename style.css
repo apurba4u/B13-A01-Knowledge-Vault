@@ -27,6 +27,7 @@ nav {
   max-height: 92px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 130px;
 }
 .logo {
@@ -49,4 +50,77 @@ nav ul {
 }
 nav ul li {
   list-style: none;
+}
+
+header {
+  width: 100vw;
+  max-width: 1600px;
+  min-height: 75vh;
+  max-height: 674px;
+  border: 1px solid red;
+  background-image: url('/assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.container {
+  width: 85vw;
+  max-width: 1360px;
+  min-height: 43vh;
+  max-height: 379px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 16px;
+  margin-top: 154px;
+}
+.container .content1{
+  width: 229px;
+  height: 35px;
+  background: #fff;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.content1 p {
+  color: #30B868;
+}
+.content2 h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.content2 h1 span{
+  color: #30B868;
+}
+.content2 p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+}
+.content3 {
+  width: 465px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.content3 .btn1 {
+  width: 251px;
+  height: 52px;
+  background-color: rgba(70, 145, 101, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.content3 .btn2 {
+  width: 198px;
+  height: 52px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-weight: 600;
 }
