@@ -215,3 +215,39 @@ header {
 #c3 {
   color: #30B868;
 }
+
+.bonus {
+  width: 85vw;
+  max-width: 1360px;
+  min-height: 43vh;
+  max-height: 384px;
+  text-align: center;
+  background-color: rgba(247, 246, 242, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+}
+.bonus .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.div1 p {
+  color: #627382;
+}
+.bonus .div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.div2 div button {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.div2 p {
+  color: #627382;
+}
+#s2 {
+  margin-top: 120px;
+}
