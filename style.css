@@ -124,3 +124,18 @@ header {
   border-radius: 4px;
   font-weight: 600;
 }
+.container1 {
+  width: 85vw;
+  max-width: 1360px;
+  min-height: 17vh;
+  max-height: 152px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-end;
+}
+.container1 p{
+  color: #627382;
+}
