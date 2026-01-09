@@ -181,3 +181,37 @@ header {
   height: 60%;
   object-fit: cover;
 }
+
+.container3 {
+  width: 85vw;
+  max-width: 1360px;
+  max-height: 600px;
+  min-height: 67vh;
+  display: flex;
+  margin: 0 auto;
+}
+.con3, .con4 {
+  flex: 1;
+}
+.con3{
+  background-image: url("./assets/knowledge.png");
+}
+.con4 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 40px;
+  margin: 102px 0;
+  margin-left: 40px;
+}
+.con4 div h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.con4 div p {
+  color: #627382;
+  line-height: 20px;
+}
+#c3 {
+  color: #30B868;
+}
